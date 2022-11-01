@@ -1,0 +1,19 @@
+body{
+    background-color: aqua;
+}
+li{
+    background-color: rgb(255, 230, 0);
+}
+h2{
+    background-color: rgb(165, 42, 42);
+}
+.Griega{
+    list-style: lower-greek;
+}
+.i{
+    list-style: lower-roman;
+}
+.no{
+    list-style: none;
+}
+
