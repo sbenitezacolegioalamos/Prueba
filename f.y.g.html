@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Flexbox y Grid</title>
+<style>
+.item1 { grid-area: header; }
+.item3 { grid-area: left; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header'
+    'left left right right'
+    'footer footer footer footer';
+  gap: 12px;
+  background-color: #21e5f3;
+  padding: 12px;
+}
+.grid-container > div {
+  background-color: rgb(255, 238, 0);
+  text-align: center;
+  padding: 25px 0;
+  font-size: 35px;
+}
+</style>
+</head>
+<body>
+
+<div class="grid-container">
+  <div class="item1">Flexbox y Grid</div>
+  <div class="item3">¿Qué es flexbox?	Es un modelo unidimensional de layout, sirve para distribuir el espacio entre los ítems de una 
+    interfaz y mejorar la alineación. Tiene como meta hacer una forma más eficiente para crear diseños.</div>  
+  <div class="item4">¿Qué es grid? Es una técnica o sistema de maquetación web de las hojas de estilo en cascada que divide la página 
+    en una cuadricula o rejilla, permite diseños complejos y adaptables. </div>
+  <div class="item5">https://www.w3schools.com/css/css_grid.asp</div>
+</div>
+
+
+</body>
+</html>
